@@ -1,0 +1,65 @@
+.about-me-page-container {
+    display: flex;
+    /* height: 90vh; */
+}
+
+.about-me-info-container {
+    background-color: rgb(255, 215, 0, .35);
+    margin-top: 20em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+}
+
+.about-me-h1 {
+    font-family: 'Space Mono', monospace;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.about-me-bio {
+    font-family: 'Space Mono', monospace;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+
+.portfolio-pic {
+    height: 400px;
+    position: relative;
+    top: -55px;
+    right: -55px;
+    margin-right: 1.5em;
+}
+
+.education-h3 {
+    font-family: 'Space Mono', monospace;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.education-div {
+    padding-left: 1.5em;
+}
+
+.name-of-school {
+    font-family: 'Space Mono', monospace;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.type-of-degree {
+    font-family: 'Space Mono', monospace;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}

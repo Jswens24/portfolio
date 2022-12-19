@@ -1,0 +1,45 @@
+.navbar-container {
+    background-color: rgb(255, 215, 0, 0.35);
+    margin-top: 20em;
+    margin-left: 2em;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name-and-dev-nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-name {
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+
+.nav-web-dev {
+    font-family: 'Space Mono', monospace;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.nav-link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-link {
+    font-family: 'Space Mono', monospace;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
