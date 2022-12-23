@@ -6,8 +6,8 @@ const AboutPage = () => {
 
     return (
         <div className='about-me-page-container'>
-            <Navbar />
-            <div className='about-me-info-container'>
+
+            <div id='about-page' className='about-me-info-container'>
                 <div>
                     <h1 className='about-me-h1'>ABOUT ME</h1>
                     <p className='about-me-bio'>Hi, I’m Jessica!  I’m from Salt Lake City, and I’m a Web Developer.  I am also a serial learner, whether it's learning a new skill, hobby, or sport, I am always learning something new.  After working many years in finance and then getting a degree in Business Administration.  I decided to take a Coding Basics class and I immediately fell in love with programming.  I love the challenge and creativity that it offers.  I attended Devmountain's Web Developement program where I learned the foundations of the web as well as specialized in React. </p>

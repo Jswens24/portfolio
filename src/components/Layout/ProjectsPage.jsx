@@ -1,20 +1,24 @@
 import React from 'react';
+import './ProjectPage.css'
 
 const ProjectsPage = () => {
 
     return (
         <div>
             <div></div>
-            <div>
+            <div id='project-page' className='project-container'>
                 <div className="top-project-info-contain">
-                    <div className="projects-title-contain">
-                        <h1>PROJECTS</h1>
-                        <p>Spudbud</p>
-                        <p>Campanion</p>
-                        <p>Swenco</p>
+                    <div className='flex-projects'>
+                        <h1 className='projects-h1'>PROJECTS</h1>
+                        <div className="projects-title-contain">
+                            <p className='project-name'>Spudbud</p>
+                            <p className='project-name'>Campanion</p>
+                            <p className='project-name'>Swenco</p>
+                        </div>
+                        <button className='github-btn'>GITHUB</button>
                     </div>
                     <div>
-                        <h2>Spudbud</h2>
+                        <h2 className='selected-title'>Spudbud</h2>
                         <iframe width="560"
                             height="315"
                             src="https://www.youtube.com/embed/0c3RmzH738U"

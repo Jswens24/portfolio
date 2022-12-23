@@ -10,11 +10,9 @@ const LandingPage = () => {
                 <h3 className='web-dev-landing'>web developer</h3>
             </div>
             <div className="scroll-arrow">
-                <p className='scroll-landing'>Scroll</p>
-                <div className="arrow"></div>
-                <div className="arrow"></div>
-                <div className="arrow"></div>
-                <div className="arrow"></div>
+                <a href="#about-page"><div className="arrow"></div></a>
+                <a href="#about-page"><div className="arrow"></div></a>
+                <a href="#about-page"><button className='click-here-btn'>Click Here</button></a>
             </div>
 
         </div>
