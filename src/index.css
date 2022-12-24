@@ -20,4 +20,5 @@ code {
 
 html {
   scroll-behavior: smooth;
+  overflow: hidden;
 }

@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div className='nav-link-container'>
                     <a href="#about-page"><p className='nav-link'>ABOUT</p></a>
                     <a href="#project-page"><p className='nav-link'>PROJECTS</p></a>
-                    <a><p className='nav-link'>CONTACT</p></a>
+                    <a href='#contact-page'><p className='nav-link'>CONTACT</p></a>
                 </div>
             </div>
             <div className="right-side"></div>
