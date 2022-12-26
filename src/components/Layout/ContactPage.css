@@ -7,7 +7,9 @@
     padding-left: 1em;
     padding-right: 1em;
     padding-bottom: 2em;
-
+    position: relative;
+    top: 0px;
+    right: -25%;
 }
 
 .contact-h1 {
@@ -110,3 +112,11 @@ textarea {
 }
 
 .textarea-flex {}
+
+.contact-max-container {
+    width: 75%;
+}
+
+.submit-btn {
+    margin-top: 1em;
+}

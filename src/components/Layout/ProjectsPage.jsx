@@ -4,8 +4,7 @@ import './ProjectPage.css'
 const ProjectsPage = () => {
 
     return (
-        <div>
-            <div></div>
+        <div className='project-container-max-div'>
             <div id='project-page' className='project-container'>
                 <div className="top-project-info-contain">
                     <div className='flex-projects'>
@@ -17,7 +16,7 @@ const ProjectsPage = () => {
                         </div>
                         <button className='github-btn'>GITHUB</button>
                     </div>
-                    <div>
+                    <div className='selected-project-div'>
                         <h2 className='selected-title'>Spudbud</h2>
                         <iframe width="560"
                             height="315"

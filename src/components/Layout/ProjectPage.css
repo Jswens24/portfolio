@@ -1,11 +1,18 @@
+.project-container-max-div {
+    width: 75%;
+}
+
 .project-container {
     background-color: rgb(255, 215, 0, .35);
     margin-top: 20em;
     margin-left: 2em;
-    margin-right: 2em;
+    margin-right: 1em;
     padding-top: 0.3em;
     padding-left: 1em;
     padding-right: 1em;
+    position: relative;
+    top: 0px;
+    right: -25%;
 }
 
 .top-project-info-contain {
@@ -23,6 +30,8 @@
 .selected-title {
     font-size: 48px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .project-name {
@@ -92,4 +101,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.selected-project-div {
+    padding-left: 1em;
 }
