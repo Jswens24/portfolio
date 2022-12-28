@@ -2,15 +2,25 @@ import React from 'react';
 import './ContactPage.css'
 
 const ContactPage = () => {
+    const copyEmailHandler = () => {
+        navigator.clipboard.writeText('jessica.swenson.dev@gmail.com')
+        alert('copied to clipboard')
+    }
+
     return (
         <div className='contact-max-container'>
             <div id='contact-page' className='contact-container'>
                 <div className="upper-contact-contain">
                     <h1 className='contact-h1'>CONTACT</h1>
                     <div className="social-btn-container">
-                        <button className='social-btn'>GITHUB</button>
-                        <button className='social-btn'>LINKEDIN</button>
-                        <button className='social-btn'>EMAIL</button>
+                        <form>
+                            <button formAction='https://github.com/Jswens24' className='social-btn'>GITHUB</button>
+                        </form>
+                        <form>
+                            <button formAction='https://www.linkedin.com/in/jessica-swenson-9a8b85194/' className='social-btn'>LINKEDIN</button>
+                        </form>
+                        <button
+                            className='social-btn' onClick={copyEmailHandler}>EMAIL</button>
                     </div>
                 </div>
                 <div className="lower-contact-contain">
