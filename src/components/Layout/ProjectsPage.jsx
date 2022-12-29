@@ -1,7 +1,40 @@
-import React from 'react';
-import './ProjectPage.css'
+import React, { useState } from 'react';
+import './ProjectPage.css';
+import projectData from '../../ProjectData/ProjectData.js';
+
 
 const ProjectsPage = () => {
+    const [projectTitle, setProjectTitle] = useState('');
+    const [demoLink, setDemoLink] = useState('');
+    const [projectDescription, setProjectDescription] = useState('');
+    const [technologiesUsed, setTechnologiesUsed] = useState('');
+    const [gitHubLink, setGitHubLink] = useState('');
+    const [isSelected, setIsSelected] = useState(false);
+
+
+    const spudbudHandler = () => {
+        setProjectTitle(projectData.projectData[0].projectTitle);
+        setDemoLink(projectData.projectData[0].demoLink);
+        setProjectDescription(projectData.projectData[0].projectDescription);
+        setTechnologiesUsed(projectData.projectData[0].technologiesUsed);
+        setGitHubLink(projectData.projectData[0].gitHubLink);
+        setIsSelected(true);
+
+        // console.log(projectTitle);
+    }
+
+    const campanionHandler = () => {
+        setProjectTitle(projectData.projectData[1].projectTitle);
+        setDemoLink(projectData.projectData[1].demoLink);
+        setProjectDescription(projectData.projectData[1].projectDescription);
+        setTechnologiesUsed(projectData.projectData[1].technologiesUsed);
+        setGitHubLink(projectData.projectData[1].gitHubLink);
+        setIsSelected(true);
+
+        // console.log(projectTitle);
+
+    }
+
 
     return (
         <div className='project-container-max-div'>
@@ -10,17 +43,25 @@ const ProjectsPage = () => {
                     <div className='flex-projects'>
                         <h1 className='projects-h1'>PROJECTS</h1>
                         <div className="projects-title-contain">
-                            <p className='project-name'>Spudbud</p>
-                            <p className='project-name'>Campanion</p>
-                            <p className='project-name'>Swenco</p>
+                            <button className={projectTitle === 'SpudBud' ? 'selected-project-css' : 'project-name'} onClick={spudbudHandler}>SpudBud</button>
+
+                            <button className={projectTitle === 'Campanion' ? 'selected-project-css' : 'project-name'} onClick={campanionHandler}>Campanion</button>
                         </div>
-                        <button className='github-btn'>GITHUB</button>
+                        {isSelected &&
+                            <form className='github-link-btn'>
+                                <button formAction={gitHubLink} className='github-btn'>GITHUB</button>
+                            </form>
+                        }
+
                     </div>
                     <div className='selected-project-div'>
-                        <h2 className='selected-title'>Spudbud</h2>
+                        <h2 className='selected-title'>{projectTitle}</h2>
+                        {!isSelected &&
+                            <h2>Please select a project</h2>
+                        }
                         <iframe width="560"
                             height="315"
-                            src="https://www.youtube.com/embed/0c3RmzH738U"
+                            src={demoLink}
                             title="YouTube video player"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -28,8 +69,8 @@ const ProjectsPage = () => {
                     </div>
                 </div>
                 <div className="bottom-project-info-contain">
-                    <p>SpudBud is a children's adventure game involving a traveling potato.  It is designed to help children learn context clues by matching appropriate items to a specific location.  You can enter your name to create a user account in my database and then from there you will be provided a random location and a randomized list of items.  You need to correctly match what the potato needs to pack for that location.  For example, if the potato is going to school it might need a backpack, notebook, and pencil.  If the correct items are selected your Spudbud will teleport to that location with the correct items.  You can also save all the places you have been to with your specific username.</p>
-                    <p>JavaScript | HTML | CSS | Node.js | Express | Axios | Sequelize  | Heroku </p>
+                    <p>{projectDescription}</p>
+                    <p>{technologiesUsed}</p>
                 </div>
             </div>
         </div>

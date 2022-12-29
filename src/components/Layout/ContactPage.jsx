@@ -3,8 +3,9 @@ import './ContactPage.css'
 
 const ContactPage = () => {
     const copyEmailHandler = () => {
-        navigator.clipboard.writeText('jessica.swenson.dev@gmail.com')
-        alert('copied to clipboard')
+        // navigator.clipboard.writeText('jessica.swenson.dev@gmail.com')
+        window.prompt('Copy to clipboard:', 'jessica.swenson.dev@gmail.com')
+        // alert('copied to clipboard')
     }
 
     return (
@@ -19,8 +20,7 @@ const ContactPage = () => {
                         <form>
                             <button formAction='https://www.linkedin.com/in/jessica-swenson-9a8b85194/' className='social-btn'>LINKEDIN</button>
                         </form>
-                        <button
-                            className='social-btn' onClick={copyEmailHandler}>EMAIL</button>
+                        <button type='button' className='social-btn' onClick={copyEmailHandler}>EMAIL</button>
                     </div>
                 </div>
                 <div className="lower-contact-contain">

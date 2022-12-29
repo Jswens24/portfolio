@@ -2,6 +2,11 @@
     width: 75%;
 }
 
+.projects-title-contain {
+    display: flex;
+    flex-direction: column;
+}
+
 .project-container {
     background-color: rgb(255, 215, 0, .35);
     margin-top: 20em;
@@ -20,6 +25,7 @@
     justify-content: space-around;
     font-family: 'Space Mono', monospace;
     color: white;
+    align-items: center;
 }
 
 .projects-h1 {
@@ -37,11 +43,22 @@
 .project-name {
     font-size: 32px;
     font-weight: bold;
+    background: none;
+    border: none;
+    font-family: 'Space Mono', monospace;
+    color: white;
+}
+
+.project-name:hover {
+    cursor: pointer;
+    font-size: 35px;
+    text-decoration: underline;
 }
 
 .flex-projects {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .github-btn {
@@ -105,4 +122,25 @@
 
 .selected-project-div {
     padding-left: 1em;
+}
+
+.githubLogo {
+    height: 3em;
+    width: 3em;
+}
+
+.github-link-btn {
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+}
+
+.selected-project-css {
+    color: gold;
+    text-decoration: underline;
+    font-size: 32px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    font-family: 'Space Mono', monospace;
 }

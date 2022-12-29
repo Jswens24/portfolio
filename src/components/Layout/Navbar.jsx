@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css'
 
 const Navbar = () => {
+    const [selectedNav, setSelectedNav] = useState('');
+
+    const navHandler = () => {
+
+    }
 
     return (
         <div className="flex-nav">
