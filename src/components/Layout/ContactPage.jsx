@@ -24,14 +24,16 @@ const ContactPage = () => {
                     </div>
                 </div>
                 <div className="lower-contact-contain">
-                    <div className="input-container">
-                        <label>NAME: <input type='text' /> </label>
-                        <label>EMAIL: <input type='text' /> </label>
+                    <form action="https://formsubmit.co/jessica.swenson.dev@gmail.com" method="POST" className="input-container">
+                        <input type="hidden" name="_subject" value="New submission!" />
+                        <input type="hidden" name="_next" value="http://localhost:3000/#contact-page"></input>
+                        <label>NAME: <input type='text' name='name' required /> </label>
+                        <label>EMAIL: <input type='text' name='email' required /> </label>
                         <div className="textarea-flex">
-                            <label>MESSAGE: <textarea></textarea> </label>
+                            <label>MESSAGE: <textarea name='message' required></textarea> </label>
                         </div>
-                        <button className='social-btn submit-btn'>SUBMIT</button>
-                    </div>
+                        <button type='submit' className='social-btn submit-btn'>SUBMIT</button>
+                    </form>
                 </div>
             </div>
         </div>
