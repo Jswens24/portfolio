@@ -7,7 +7,7 @@
 
 
 .name-circle {
-    margin-top: 5em;
+    margin-top: 4%;
     position: relative;
     display: inline-block;
     border: 6px solid gold;
@@ -119,3 +119,251 @@
     color: rgba(0, 0, 0, 0.65);
     transform: translateY(0);
 }
+
+
+
+
+@media (max-width: 984px) {
+    .name-on-landing {
+        font-size: 54px;
+    }
+
+    .scroll-arrow {
+        margin-left: 6%;
+    }
+
+    .name-circle {
+        height: 72vh;
+        width: 81vw;
+        margin-left: 6%;
+    }
+}
+
+
+
+
+@media (max-width: 782px) {
+    .name-circle {
+        height: 81vh;
+        width: 94vw;
+        margin-left: 8%;
+    }
+
+    .scroll-arrow {
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 729px) {
+    .name-circle {
+        height: 81vh;
+        width: 94vw;
+        margin-left: 11%;
+    }
+
+    .scroll-arrow {
+        margin-left: 11%;
+    }
+}
+
+@media (max-width: 619px) {
+    .name-circle {
+        height: 81vh;
+        width: 114vw;
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+
+    .scroll-arrow {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 553px) {
+    .name-circle {
+        height: 81vh;
+        width: 129vw;
+        margin-left: 45%;
+        margin-top: 20%;
+    }
+
+    .scroll-arrow {
+        margin-left: 45%;
+        margin-top: 20%;
+    }
+}
+
+
+@media (max-width: 465px) {
+    .name-circle {
+        height: 82vh;
+        width: 160vw;
+        margin-left: 75%;
+        margin-top: 65%;
+    }
+
+    .scroll-arrow {
+        margin-left: 75%;
+        margin-top: 50%;
+    }
+}
+
+@media (max-width: 401px) {
+
+    .name-circle {
+        height: 82vh;
+        width: 172vw;
+        margin-left: 95%;
+        margin-top: 75%;
+    }
+
+    .scroll-arrow {
+        margin-left: 95%;
+        margin-top: 75%;
+    }
+}
+
+
+@media (max-width: 333px) {
+    .name-circle {
+        height: 82vh;
+        width: 217vw;
+        margin-left: 130%;
+        margin-top: 90%;
+    }
+
+    .scroll-arrow {
+        margin-left: 130%;
+        margin-top: 80%;
+    }
+}
+
+
+
+
+
+/* 
+@media (max-width: 830px) {
+    .name-circle {
+        margin-top: 7em;
+    }
+}
+
+@media (max-width: 788px) {
+    .name-circle {
+        margin-top: 7em;
+    }
+
+    .scroll-arrow {
+        height: 13vh;
+    }
+
+    .main-pg-background {
+        width: 110vh;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 678px) {
+    .name-circle {
+        margin-top: 16em;
+        height: 60vh;
+        width: 80vw;
+    }
+}
+
+@media (max-width: 625px) {
+    .name-circle {
+        margin-top: 18em;
+        height: 60vh;
+        width: 90vw;
+    }
+}
+
+@media (max-width: 552px) {
+    .name-circle {
+        margin-top: 5em;
+        height: 60vh;
+        width: 95vw;
+    }
+}
+
+@media (max-width: 525px) {
+    .name-circle {
+        margin-top: 5em;
+        height: 60vh;
+        width: 110vw;
+    }
+}
+
+@media (max-width: 452px) {
+    .name-circle {
+        margin-top: 5em;
+        height: 60vh;
+        width: 120vw;
+    }
+}
+
+@media (max-width: 419px) {
+    .name-circle {
+        margin-top: 5em;
+        height: 60vh;
+        width: 130vw;
+    }
+}
+
+
+@media (max-width: 392px) {
+    .name-circle {
+        margin-top: 5em;
+        height: 70vh;
+        width: 140vw;
+    }
+
+    .main-pg-background {
+        width: 115vh;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 372px) {
+    .name-circle {
+        margin-top: 5em;
+        height: 60vh;
+        width: 155vw;
+    }
+}
+
+@media (max-width: 319px) {
+    .name-circle {
+        margin-top: 5em;
+        height: 60vh;
+        width: 166vw;
+    }
+}
+
+@media (max-width: 299px) {
+    .name-circle {
+        margin-top: 5em;
+        height: 60vh;
+        width: 180vw;
+    }
+}
+
+@media (max-width: 278px) {
+    .name-circle {
+        margin-top: 5em;
+        height: 60vh;
+        width: 190vw;
+    }
+}
+
+@media (max-width: 260px) {
+    .name-circle {
+        margin-top: 5em;
+        height: 60vh;
+        width: 250vw;
+    }
+
+} */
