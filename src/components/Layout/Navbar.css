@@ -65,3 +65,24 @@
     height: 100%;
     width: 25%;
 }
+
+@media (max-width: 1008px) {
+    .nav-link {
+        font-size: 26px;
+    }
+
+    .nav-name {
+        text-align: center;
+    }
+
+    .nav-web-dev {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 879px) {
+    .nav-link {
+        font-size: 24px;
+    }
+}

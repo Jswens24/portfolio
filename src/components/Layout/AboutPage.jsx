@@ -14,7 +14,7 @@ const AboutPage = () => {
                 </div>
                 <div className='education-div'>
                     <img className='portfolio-pic' src='https://drive.google.com/uc?export=view&id=1Vqvp_DNooIELcVbju_wRweselPFDuOwT' alt='picture of me!' />
-                    <div>
+                    <div className='edu-text'>
                         <h3 className='education-h3'>EDUCATION</h3>
                         <h4 className='name-of-school'>Strayer University March 2022</h4>
                         <p className='type-of-degree'>Associates in Business Administration</p>
