@@ -135,7 +135,7 @@
     .name-circle {
         height: 72vh;
         width: 81vw;
-        margin-left: 6%;
+        margin-left: -10%;
     }
 }
 
@@ -145,8 +145,8 @@
 @media (max-width: 782px) {
     .name-circle {
         height: 81vh;
-        width: 94vw;
-        margin-left: 8%;
+        width: 86vw;
+        margin-left: -5%;
     }
 
     .scroll-arrow {
@@ -157,8 +157,8 @@
 @media (max-width: 729px) {
     .name-circle {
         height: 81vh;
-        width: 94vw;
-        margin-left: 11%;
+        width: 90vw;
+        margin-left: -3%;
     }
 
     .scroll-arrow {
@@ -169,8 +169,8 @@
 @media (max-width: 619px) {
     .name-circle {
         height: 81vh;
-        width: 114vw;
-        margin-left: 30%;
+        width: 100vw;
+        margin-left: 5%;
         margin-top: 10%;
     }
 
@@ -198,8 +198,8 @@
 @media (max-width: 465px) {
     .name-circle {
         height: 82vh;
-        width: 160vw;
-        margin-left: 75%;
+        width: 136vw;
+        margin-left: 50%;
         margin-top: 65%;
     }
 
