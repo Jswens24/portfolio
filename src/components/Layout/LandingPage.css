@@ -83,7 +83,7 @@
     cursor: pointer;
     display: inline-flex;
     font-family: 'Space Mono', monospace;
-    font-size: 26px;
+    font-size: 16px;
     font-weight: 600;
     justify-content: center;
     line-height: 1.25;
@@ -120,10 +120,239 @@
     transform: translateY(0);
 }
 
+@media (max-width: 1337px) {
+    .name-circle {
+        width: 77vw;
+    }
+}
+
+@media (max-width: 912px) {
+    .name-circle {
+        width: 93vw;
+        height: 61vh;
+        margin-left: 1vw;
+        margin-top: 10vh;
+    }
+
+    .scroll-arrow {
+        margin-left: 1vw;
+    }
+}
+
+@media (max-width: 820px) {
+    .name-circle {
+        width: 99vw;
+        height: 72vh;
+        margin-left: 7vw;
+        margin-top: 10vh;
+    }
+
+    .scroll-arrow {
+        margin-left: 7vw;
+    }
+}
+
+@media (max-width: 796px) {
+    .name-circle {
+        width: 87vw;
+        height: 79vh;
+        margin-left: 7vw;
+    }
+
+    .scroll-arrow {
+        margin-left: 7vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .name-circle {
+        height: 66vh;
+    }
+}
+
+@media (max-width: 674px) {
+    .name-circle {
+        width: 99vw;
+        height: 81vh;
+        margin-left: 20vw;
+    }
+
+    .scroll-arrow {
+        margin-left: 20vw;
+        margin-bottom: 10vh;
+    }
+
+}
+
+@media (max-width: 605px) {
+    .name-circle {
+        width: 113vw;
+        height: 83vh;
+        margin-left: 30vw;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+    }
+
+    .scroll-arrow {
+        margin-left: 30vw;
+    }
+}
+
+@media (max-width: 540px) {
+    .name-circle {
+        width: 115vw;
+        height: 83vh;
+        margin-left: 48vw;
+        margin-bottom: 10vh;
+        margin-top: 17vh;
+    }
+
+    .scroll-arrow {
+        margin-left: 48vw;
+    }
+}
+
+@media (max-width: 530px) {
+    .name-circle {
+        width: 126vw;
+        height: 90vh;
+        margin-left: 46vw;
+        margin-bottom: 10vh;
+        margin-top: 19vh;
+    }
+
+    .scroll-arrow {
+        margin-left: 46vw;
+    }
+
+    .body {
+        background-position: 0px 0px;
+    }
+}
+
+@media (max-width: 466px) {
+    .name-circle {
+        width: 147vw;
+        margin-left: 67vw;
+        margin-bottom: 10vh;
+        margin-top: 24vh;
+    }
+
+    .scroll-arrow {
+        margin-left: 67vw;
+        margin-bottom: 30vh;
+    }
+}
+
+@media (max-width: 414px) {
+    .name-circle {
+        width: 174vw;
+        margin-left: 82vw;
+        margin-bottom: 10vh;
+        margin-top: 24vh;
+    }
+
+    .scroll-arrow {
+        margin-left: 82vw;
+        margin-bottom: 30vh;
+    }
+}
+
+@media (max-width: 399px) {
+    .name-circle {
+        width: 176vw;
+        margin-left: 91vw;
+        margin-bottom: 16vh;
+        margin-top: 37vh;
+    }
+
+    .scroll-arrow {
+        margin-left: 91vw;
+        margin-bottom: 40vh;
+    }
+}
+
+@media (max-width: 375px) {
+    .name-circle {
+        margin-left: 98vw;
+    }
+
+    .scroll-arrow {
+        margin-left: 98vw;
+    }
+}
+
+@media (max-width: 332px) {
+    .name-circle {
+        width: 201vw;
+        margin-left: 121vw;
+        margin-bottom: 22vh;
+        margin-top: 46vh;
+    }
+
+    .scroll-arrow {
+        margin-left: 121vw;
+        margin-bottom: 50vh;
+    }
+}
+
+@media (max-width: 280px) {
+    .name-circle {
+        width: 213vw;
+        margin-left: 163vw;
+        margin-bottom: 22vh;
+        margin-top: 73vh;
+    }
+
+    .scroll-arrow {
+        margin-left: 163vw;
+        margin-bottom: 50vh;
+    }
+}
 
 
+/* @media (max-width: 1337px) {
+    .name-circle {
+        height: 33vh;
+        width: 29vw;
+    }
+}
 
-@media (max-width: 984px) {
+@media (max-width: 1107px) {
+    .name-circle {
+        height: 34vh;
+        width: 41vw;
+    }
+}
+
+@media (max-width: 779px) {
+    .name-circle {
+        height: 40vh;
+        width: 56vw;
+    }
+}
+
+@media (max-width: 617px) {
+    .name-circle {
+        height: 40vh;
+        width: 67vw;
+        margin-bottom: 8vh;
+    }
+}
+
+@media (max-width: 537px) {
+    .name-circle {
+        height: 40vh;
+        width: 67vw;
+}
+
+.scroll-arrow {
+    padding-bottom: 20vh;
+}
+}
+
+*/
+/* @media (max-width: 984px) {
     .name-on-landing {
         font-size: 54px;
     }
@@ -135,7 +364,7 @@
     .name-circle {
         height: 72vh;
         width: 81vw;
-        margin-left: -10%;
+        margin-left: 36vw;
     }
 }
 
@@ -192,10 +421,10 @@
         margin-left: 45%;
         margin-top: 20%;
     }
-}
+} */
 
 
-@media (max-width: 465px) {
+/* @media (max-width: 465px) {
     .name-circle {
         height: 82vh;
         width: 136vw;
@@ -239,7 +468,7 @@
     }
 }
 
-
+ */
 
 
 

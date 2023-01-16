@@ -1,7 +1,10 @@
 .about-me-page-container {
     display: flex;
+    flex-direction: column;
     width: 75vw;
+    align-items: center;
     /* height: 90vh; */
+
 }
 
 .about-me-info-container {
@@ -76,8 +79,104 @@ a {
     margin-top: -18%;
 }
 
+.arrow {
+    display: inline-block;
+    border: solid gold;
+    border-width: 0 5px 5px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+    margin-top: 15px;
+    /* border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #FCA101; */
+}
 
-@media (max-width: 1150px) {
+.arrow:hover {
+    border-width: 0 10px 10px 0;
+    padding: 15px;
+}
+
+.about-me-arrow {
+    margin-left: 40vw;
+}
+
+@media (max-width: 1114px) {
+    .portfolio-pic {
+        height: 320px;
+    }
+}
+
+@media (max-width: 1066px) {
+    .about-me-h1 {
+        font-size: 38px;
+    }
+
+    .education-h3 {
+        font-size: 28px;
+    }
+
+    .about-me-bio {
+        font-size: 18px;
+    }
+
+    .name-of-school {
+        font-size: 18px;
+    }
+
+    .type-of-degree {
+        font-size: 18px;
+        margin-top: -2vh;
+    }
+
+    .about-me-arrow {
+        margin-top: 5vh;
+    }
+}
+
+@media (max-width: 943px) {
+    .about-me-h1 {
+        font-size: 36px;
+    }
+
+    .education-h3 {
+        font-size: 26px;
+    }
+
+    .about-me-bio {
+        font-size: 16px;
+    }
+
+    .name-of-school {
+        font-size: 16px;
+    }
+
+    .type-of-degree {
+        font-size: 16px;
+        margin-top: -2vh;
+    }
+
+    .about-me-arrow {
+        margin-top: 6vh;
+    }
+
+    .about-me-info-container {
+        background-color: rgb(255, 215, 0, .52);
+    }
+}
+
+@media (max-width: 873px) {
+    .portfolio-pic {
+        height: 260px;
+    }
+
+    .about-me-info-container {
+        margin-left: 5vw;
+        margin-right: -5vw;
+        background-color: rgb(255, 215, 0, .55);
+    }
+}
+
+/* @media (max-width: 1150px) {
     .about-me-info-container {
         font-size: 1px;
         margin-left: 6%;
@@ -200,4 +299,4 @@ a {
     }
 }
 
-/* 725 */
+725 */

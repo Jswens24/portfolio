@@ -9,7 +9,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .name-and-dev-nav-bar {
@@ -63,10 +62,90 @@
     position: sticky;
     top: 0;
     height: 100%;
-    width: 25%;
+    width: 12vw;
 }
 
-@media (max-width: 1008px) {
+@media (max-width: 1051px) {
+    .nav-link {
+        font-size: 26px;
+    }
+
+    .nav-name {
+        text-align: center;
+    }
+
+    .nav-web-dev {
+        text-align: center;
+    }
+}
+
+@media (max-width: 943px) {
+    .nav-link {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-container {
+        width: 4vw;
+        height: 4vh;
+        margin-left: 0px;
+    }
+
+    .nav-link {
+        font-size: 0px;
+    }
+
+    .nav-web-dev {
+        font-size: 0px;
+    }
+
+    .nav-name {
+        visibility: hidden;
+    }
+
+    .nav-name::before {
+        content: '>';
+        visibility: visible;
+        padding-left: 9vw;
+    }
+
+    .name-and-dev-nav-bar {
+        padding-top: 2vh;
+    }
+
+    /* hover effect */
+
+    .navbar-container:active {
+        background-color: rgb(255, 215, 0, 0.35);
+        margin-top: 100%;
+        margin-left: 15%;
+        padding-top: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .name-and-dev-nav-bar:hover {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-name:hover {
+        font-family: 'Space Mono', monospace;
+        font-weight: bold;
+        font-size: 17px;
+        color: white;
+    }
+
+
+}
+
+/* @media (max-width: 1008px) {
     .nav-link {
         font-size: 26px;
     }
@@ -89,4 +168,4 @@
 
 @media (max-width: 700px) {
     .navbar-container {}
-}
+} */
