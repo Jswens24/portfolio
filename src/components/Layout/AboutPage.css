@@ -9,7 +9,7 @@
 
 .about-me-info-container {
     background-color: rgb(255, 215, 0, .49);
-    margin-top: 30%;
+    margin-top: 10vh;
     margin-left: 1.5%;
     margin-right: 1.5%;
     padding-top: 0.3%;
@@ -175,6 +175,62 @@ a {
         background-color: rgb(255, 215, 0, .55);
     }
 }
+
+@media (max-width: 768px) {
+
+    .about-me-info-container {
+        width: 93vw;
+        z-index: -1;
+        margin-top: 20vh;
+    }
+}
+
+@media (max-width: 571px) {
+
+    .about-me-info-container {
+        width: 100vw;
+        margin-left: 14vw;
+        background-color: rgb(255, 215, 0, .65);
+    }
+
+    .portfolio-pic {
+        height: 160px;
+    }
+}
+
+@media (max-width: 456px) {
+
+    .about-me-info-container {
+        width: 122vw;
+        margin-left: 42vw;
+        background-color: rgb(255, 215, 0, .65);
+    }
+
+    .about-me-arrow {
+        margin-top: 15vh;
+        margin-left: 80vw;
+    }
+}
+
+@media (max-width: 387px) {
+
+    .about-me-info-container {
+        width: 143vw;
+        margin-left: 63vw;
+        background-color: rgb(255, 215, 0, .70);
+    }
+
+    .about-me-arrow {
+        margin-top: 15vh;
+        margin-left: 94vw;
+    }
+
+    body {
+        background-position: 0px 3px;
+    }
+}
+
+
 
 /* @media (max-width: 1150px) {
     .about-me-info-container {

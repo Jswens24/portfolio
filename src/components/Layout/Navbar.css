@@ -65,6 +65,24 @@
     width: 12vw;
 }
 
+.toggle-button {
+    position: absolute;
+    left: 62px;
+    top: 20vh;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 4vw;
+    height: 4vh;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
 @media (max-width: 1051px) {
     .nav-link {
         font-size: 26px;
@@ -86,64 +104,37 @@
 }
 
 @media (max-width: 768px) {
-    .navbar-container {
-        width: 4vw;
-        height: 4vh;
-        margin-left: 0px;
-    }
 
-    .nav-link {
-        font-size: 0px;
-    }
-
-    .nav-web-dev {
-        font-size: 0px;
-    }
-
-    .nav-name {
-        visibility: hidden;
-    }
-
-    .nav-name::before {
-        content: '>';
-        visibility: visible;
-        padding-left: 9vw;
+    .toggle-button {
+        display: flex;
+        background-color: rgb(255, 215, 0, 0.35);
+        padding: 15px;
+        margin-left: -59px;
     }
 
     .name-and-dev-nav-bar {
-        padding-top: 2vh;
+        display: none;
     }
 
-    /* hover effect */
-
-    .navbar-container:active {
-        background-color: rgb(255, 215, 0, 0.35);
-        margin-top: 100%;
-        margin-left: 15%;
-        padding-top: 10%;
-        padding-left: 10%;
-        padding-right: 10%;
+    .name-and-dev-nav-bar:active {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
     }
 
-    .name-and-dev-nav-bar:hover {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .nav-link-container {
+        display: none;
     }
 
-    .nav-name:hover {
-        font-family: 'Space Mono', monospace;
-        font-weight: bold;
-        font-size: 17px;
-        color: white;
+    .navbar-container {
+        margin-left: 0.33000000000000007vw;
+        margin-top: 19.999vh;
+        background-color: black;
+        width: 100vw;
+        height: 65vh;
+        padding-top: 5vh;
     }
-
-
 }
+
+
 
 /* @media (max-width: 1008px) {
     .nav-link {
