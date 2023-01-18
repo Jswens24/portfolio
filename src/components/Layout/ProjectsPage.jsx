@@ -37,8 +37,8 @@ const ProjectsPage = () => {
 
 
     return (
-        <div className='project-container-max-div'>
-            <div id='project-page' className='project-container'>
+        <div id='project-page' className='project-container-max-div'>
+            <div className='project-container'>
                 <div className="top-project-info-contain">
                     <div className='flex-projects'>
                         <h1 className='projects-h1'>PROJECTS</h1>
@@ -72,6 +72,11 @@ const ProjectsPage = () => {
                     <p>{projectDescription}</p>
                     <p>{technologiesUsed}</p>
                 </div>
+            </div>
+            <div className="arrow-projects">
+                <a href="#contact-page"><div className="arrow about-me-arrow project-arrow"></div></a>
+                <a href="#contact-page"><div className="arrow about-me-arrow project-arrow"></div></a>
+                <a href="#contact-page"><div className="arrow about-me-arrow project-arrow"></div></a>
             </div>
         </div>
     )
